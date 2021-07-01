@@ -1,7 +1,7 @@
 body {
 	/*text-align: center;*/
 	font-family: 'Kumbh Sans', sans-serif;
-	background-color: hsl(185, 75%, 39%);
+	/*background-color: hsl(185, 75%, 39%);*/
 	
 }
 
@@ -36,21 +36,21 @@ a {
 
 /* BACKGROUND */
 
-.container {
+.general-container {
 	z-index: -1;
 	position: relative;
-	/*background-color: hsl(185, 75%, 39%);*/
+	background-color: hsl(185, 75%, 39%);
 	/*background-color: green;*/
 	min-height: 750px;
 	overflow: hidden;
 }
 
 
-/*.img-1 {
+.img-1 {
 	width: 700px;
-	/*border: solid 3px;
+	/*border: solid 3px;*/
 	border-radius: 50%;
-	border-color: red;*/
+	/*border-color: red;*/
 	position: absolute;
 	top: -500px;
 	left: -400px;
@@ -58,12 +58,12 @@ a {
 
 .img-2 {
 	width: 700px;
-	/*border: solid 3px;
+	/*border: solid 3px;*/
 	border-radius: 50%;
-	border-color: yellow;*/
+	/*border-color: yellow;*/
 	position: absolute;
 	bottom: -200px;
-	right: -400px;*/
+	right: -400px;
 
 }
 
