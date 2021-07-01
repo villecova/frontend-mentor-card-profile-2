@@ -1,0 +1,161 @@
+body {
+	/*text-align: center;*/
+	font-family: 'Kumbh Sans', sans-serif;
+	background-color: hsl(185, 75%, 39%);
+	
+}
+
+h1, h2 {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+h6 {
+	padding-bottom: 1px;
+	font-weight: 300;
+	color: hsl(227, 10%, 46%);
+}
+
+span {
+	font-weight: 300;
+	font-size: 18px;
+	color: hsl(227, 10%, 46%);
+}
+
+p {
+	font-size: 10px;
+	letter-spacing: 2px;
+	color: hsl(227, 10%, 46%);
+}
+
+a {
+	font-weight: 700;
+	color: skyblue;
+	text-decoration: none;
+}
+
+/* BACKGROUND */
+
+.container {
+	z-index: -1;
+	position: relative;
+	/*background-color: hsl(185, 75%, 39%);*/
+	/*background-color: green;*/
+	min-height: 750px;
+	overflow: hidden;
+}
+
+
+/*.img-1 {
+	width: 700px;
+	/*border: solid 3px;
+	border-radius: 50%;
+	border-color: red;*/
+	position: absolute;
+	top: -500px;
+	left: -400px;
+}
+
+.img-2 {
+	width: 700px;
+	/*border: solid 3px;
+	border-radius: 50%;
+	border-color: yellow;*/
+	position: absolute;
+	bottom: -200px;
+	right: -400px;*/
+
+}
+
+
+/* CARD */
+
+.main-card {
+	border-radius: 20px;
+	position: flex;
+	text-align: center;
+	align-items: center;
+	border: none;
+	margin: auto;
+	margin-top: 150px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.card-img-top {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	position: absolute;
+}
+
+.img-profile {
+	border-radius: 100%;
+	border: solid 6px;
+	border-color: white;
+	position: relative;
+	z-index: 1;
+	top: 75px;
+}
+
+.central-body-card {
+	padding-top: 90px;
+}
+
+.bottom-body-card {
+	 border-top: 1px solid lightgray;
+	 margin: 0;
+	 padding: 35px 10px 16px;
+	/* height: 80px;*/
+}
+
+.social-stats {
+	line-height: 1;
+	padding: 0 20px;
+}
+
+.attribution {
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	font-size: 9px;
+}
+
+.section {
+	z-index: 1;
+	height: 500px;
+	background-color: white;
+}
+
+@media (min-width:  1440px) {
+
+	.container{
+		z-index: -1;
+		position: relative;
+		/*background-color: hsl(185, 75%, 39%);*/
+		/*background-color: green;*/
+		min-height: 750px;
+	}
+
+
+	.img-1 {
+		width: 1100px;
+		/*border: solid 3px;
+		border-radius: 50%;
+		border-color: red;*/
+		position: absolute;
+		top: -800px;
+		left: -250px;
+	}
+
+	.img-2 {
+		width: 1100px;
+	/*	border: solid 3px;
+		border-radius: 50%;
+		border-color: yellow;*/
+		position: absolute;
+		bottom: -500px;
+		right: -250px;
+
+	}
+
+
+}
